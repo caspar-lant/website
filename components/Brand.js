@@ -22,7 +22,7 @@ export default class extends Component {
             font-size: 2em;
           }
           a:focus {
-            box-shadow: 0 0 8px rgba(81, 203, 238, 1)
+            box-shadow: 0 0 8px #51cbee
           }
         `}</style>
       </>
