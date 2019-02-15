@@ -7,7 +7,9 @@
 		"dev": "next dev",
 		"lint": "eslint .",
 		"lint:fix": "eslint --fix .",
-		"export": "next export"
+		"export": "next export",
+		"deploy": "now",
+		"alias": "now alias"
 	},
 	"version": "1.0.0",
 	"main": "pages/index.js",
