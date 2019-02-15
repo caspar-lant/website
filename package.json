@@ -1,0 +1,56 @@
+{
+	"name": "caspar.cc",
+	"description": "Caspar's personal website and portfolio.",
+	"scripts": {
+		"start": "next start",
+		"build": "next build",
+		"dev": "next dev",
+		"lint": "eslint .",
+		"lint:fix": "eslint --fix .",
+		"export": "next export"
+	},
+	"version": "1.0.0",
+	"main": "pages/index.js",
+	"author": "Caspar Lant",
+	"license": "MIT",
+	"private": false,
+	"eslintConfig": {
+		"extends": [
+			"eslint:recommended",
+			"plugin:react/recommended"
+		],
+		"settings": {
+			"react": {
+				"version": "detect"
+			}
+		},
+		"rules": {
+			"react/react-in-jsx-scope": "off",
+			"semi": [
+				"error",
+				"never"
+			],
+			"quotes": [
+				"error",
+				"single"
+			]
+		},
+		"parser": "babel-eslint",
+		"env": {
+			"node": true,
+			"browser": true,
+			"es6": true
+		}
+	},
+	"dependencies": {
+		"next": "^8.0.1",
+		"react": "^16.8.2",
+		"react-dom": "^16.8.2"
+	},
+	"devDependencies": {
+		"babel": "^6.23.0",
+		"babel-eslint": "^10.0.1",
+		"eslint": "^5.14.0",
+		"eslint-plugin-react": "^7.12.4"
+	}
+}
