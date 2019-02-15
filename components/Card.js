@@ -4,10 +4,10 @@ import generateColor from 'string-to-color'
 export default class extends Component {
   render() {
     return (
-      <figure className='container'>
-        <figcaption>
+      <button className='container'>
+        <div className='internal'>
           <h2>{this.props.title}</h2>
-        </figcaption>
+        </div>
         <style jsx>{`
           .container {
             background-color: #444444;
@@ -17,8 +17,16 @@ export default class extends Component {
             flex: 1;
             cursor: pointer;
             margin: 0;
+            padding: 0;
+            border: none;
+            outline: none;
+            transition: box-shadow 150ms ease;
+            width: 100%;
           }
-          figcaption {
+          .container:focus {
+            box-shadow: 0 0 8px rgba(81, 203, 238, 1)
+          }
+          .internal {
             padding-top: 5rem;
             padding-bottom: 5rem;
             text-align: center;
@@ -27,21 +35,21 @@ export default class extends Component {
             opacity: 0;
             transition: opacity 150ms ease;
           }
-          .container:hover figcaption {
+          .container:hover .internal {
             opacity: 0.8;
           }
-          figcaption h2 {
+          .internal h2 {
             margin: 0;
             font-family: 'Circular Std', 'Helvetica', 'Arial', 'sans-serif';
             font-weight: normal;
           }
           @media only screen and (max-width: 780px) {
-            figcaption {
+            .internal {
               opacity: 0.8;
             }
           }
         `}</style>
-      </figure>
+      </button>
     )
   }
 }

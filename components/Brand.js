@@ -6,16 +6,23 @@ export default class extends Component {
     return (
       <>
         <Link href='/'>
-          <h1>Caspar.cc</h1>
+          <a title='Go home'>Caspar.cc</a>
         </Link>
         <style jsx>{`
-          h1 {
+          a {
             font-family: 'Circular Std', 'Helvetica', 'Arial', 'sans-serif';
             font-weight: bold;
-            margin-left: 10vw;
-            margin-right: 10vw;
-            margin-bottom: 30px;
+            margin: 30px 10vw;
             cursor: pointer;
+            outline: none;
+            transition: box-shadow 150ms ease;
+            display: inline-block;
+            text-decoration: none;
+            color: #000000;
+            font-size: 2em;
+          }
+          a:focus {
+            box-shadow: 0 0 8px rgba(81, 203, 238, 1)
           }
         `}</style>
       </>
