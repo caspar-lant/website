@@ -7,9 +7,7 @@
 		"dev": "next dev",
 		"lint": "eslint .",
 		"lint:fix": "eslint --fix .",
-		"export": "next export",
-		"deploy": "now",
-		"alias": "now alias"
+		"export": "next export"
 	},
 	"version": "1.0.0",
 	"main": "pages/index.js",
@@ -53,7 +51,6 @@
 		"babel": "^6.23.0",
 		"babel-eslint": "^10.0.1",
 		"eslint": "^5.14.0",
-		"eslint-plugin-react": "^7.12.4",
-		"now": "^14.0.0"
+		"eslint-plugin-react": "^7.12.4"
 	}
 }
