@@ -29,8 +29,8 @@ export default class extends Component {
               box-shadow: 0 0 8px rgba(81, 203, 238, 1)
             }
             .internal {
-              padding-top: 5rem;
-              padding-bottom: 5rem;
+              padding-top: 6rem;
+              padding-bottom: 6rem;
               text-align: center;
               color: #ffffff;
               background-color: ${generateColor(this.props.title)};
