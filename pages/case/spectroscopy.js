@@ -3,7 +3,6 @@ import Brand from '../../components/Brand'
 import Heading from '../../components/Heading'
 import Text from '../../components/Text'
 import Footer from '../../components/Footer'
-import Action from '../../components/Action'
 
 export default class extends Component {
   render() {

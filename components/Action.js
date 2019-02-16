@@ -3,7 +3,7 @@ import { Component } from 'react'
 export default class extends Component {
   render() {
     return (
-      <a href={this.props.link} target='_blank'>
+      <a href={this.props.link} target='_blank' rel='noopener noreferrer'>
         {this.props.children}
         <style jsx>{`
           a {
