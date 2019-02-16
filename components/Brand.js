@@ -12,7 +12,7 @@ export default class extends Component {
           a {
             font-family: 'Circular Std', 'Helvetica', 'Arial', 'sans-serif';
             font-weight: bold;
-            margin: 30px 10vw;
+            margin: 30px 10vw 0 10vw;
             cursor: pointer;
             outline: none;
             transition: box-shadow 150ms ease;

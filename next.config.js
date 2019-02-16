@@ -1,4 +1,5 @@
 const withOffline = require('next-offline')
+const withOptimization = require('next-optimized-images')
 
 const config = {
   target: 'serverless',
@@ -24,4 +25,4 @@ const config = {
   }
 }
 
-module.exports = withOffline(config)
+module.exports = withOptimization(withOffline(config))
