@@ -33,6 +33,7 @@ export default class extends Component {
         </section>
         <section>
           <Heading>About Me</Heading>
+          <img src='/static/images/caspar.jpg' />
           <Text>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eleifend magna lacus, ut iaculis massa iaculis eu. Nullam id vestibulum urna, quis aliquet tellus. Nunc sagittis justo sit amet sagittis efficitur. Donec interdum sagittis lectus, a consectetur ante convallis quis. Mauris commodo euismod metus id ultrices. Sed sit amet velit sit amet turpis auctor pulvinar. Aliquam a risus sit amet leo dapibus dignissim. Curabitur condimentum iaculis massa, in fringilla sapien sollicitudin id.
           </Text>
@@ -57,6 +58,11 @@ export default class extends Component {
           }
           body {
             margin: 0;
+          }
+          img {
+            margin: auto;
+            display: block;
+            margin-bottom: 10px;
           }
         `}</style>
       </div>

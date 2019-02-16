@@ -12,6 +12,7 @@ export default class extends Document {
           <meta property='og:title' content='Caspar Lant' />
           <meta property='og:site_name' content='Caspar.cc' />
           <meta property='og:type' content='website' />
+          <link rel='shortcut icon' type='image/png' href='/static/images/favicon.png' />
           <title>Caspar Lant</title>
         </Head>
         <body>
