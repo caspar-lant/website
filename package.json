@@ -43,6 +43,8 @@
 		}
 	},
 	"dependencies": {
+		"imagemin-mozjpeg": "^8.0.0",
+		"imagemin-optipng": "^6.0.0",
 		"next": "^8.0.1",
 		"next-offline": "^3.3.5",
 		"next-optimized-images": "^2.3.3",
