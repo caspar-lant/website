@@ -27,6 +27,9 @@ export default class extends Component {
           <Text>
             Maecenas porta turpis sem, a commodo odio eleifend ac. Duis pulvinar magna vitae bibendum sodales. Suspendisse ante odio, dignissim sit amet diam quis, tincidunt venenatis tortor. Etiam condimentum purus nunc, ac tempus lectus interdum vitae. Nullam porta lorem augue, vel maximus risus malesuada nec. Cras aliquam ornare est, non pulvinar purus molestie sed. Donec volutpat eget diam eleifend tincidunt. Nunc turpis mi, vestibulum et venenatis in, bibendum ut mi. In molestie lobortis eros, ac vehicula risus ornare eget. Donec tincidunt, justo vitae lacinia egestas, ante tortor ornare tortor, nec consequat libero risus ac mi. Ut urna est, auctor nec auctor ac, vehicula vel augue. Nam condimentum accumsan semper.
           </Text>
+          <Text>
+            Proin volutpat vel ex eu luctus. Cras dui metus, tincidunt vel fermentum quis, tempor et neque. Quisque interdum malesuada urna, at venenatis ante fermentum eget. Nulla sem ante, consectetur sit amet turpis at, tempus varius nibh. Nullam fringilla, lorem sit amet laoreet aliquet, orci lorem ornare urna, venenatis tempor nulla enim ac urna. Vivamus arcu metus, tincidunt at elit et, volutpat sollicitudin massa. Proin blandit neque in urna efficitur interdum. In vitae arcu elit. Aenean egestas sed leo vitae pellentesque. Nulla ligula libero, pellentesque ac euismod sit amet, consectetur in justo.
+          </Text>
         </article>
         <Footer />
         <style jsx global>{`
